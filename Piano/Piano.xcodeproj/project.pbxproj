@@ -1,0 +1,423 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		ED498F3E26FACE3B0090442A /* A.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = ED498F3126FACE3A0090442A /* A.mp3 */; };
+		ED498F3F26FACE3B0090442A /* B.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = ED498F3226FACE3A0090442A /* B.mp3 */; };
+		ED498F4026FACE3B0090442A /* C.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = ED498F3326FACE3A0090442A /* C.mp3 */; };
+		ED498F4126FACE3B0090442A /* C#.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = ED498F3426FACE3A0090442A /* C#.mp3 */; };
+		ED498F4226FACE3B0090442A /* G.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = ED498F3526FACE3A0090442A /* G.mp3 */; };
+		ED498F4326FACE3B0090442A /* F.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = ED498F3626FACE3B0090442A /* F.mp3 */; };
+		ED498F4426FACE3B0090442A /* D.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = ED498F3726FACE3B0090442A /* D.mp3 */; };
+		ED498F4526FACE3B0090442A /* E.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = ED498F3826FACE3B0090442A /* E.mp3 */; };
+		ED498F4626FACE3B0090442A /* D#.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = ED498F3926FACE3B0090442A /* D#.mp3 */; };
+		ED498F4726FACE3B0090442A /* F#.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = ED498F3A26FACE3B0090442A /* F#.mp3 */; };
+		ED498F4826FACE3B0090442A /* G#.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = ED498F3B26FACE3B0090442A /* G#.mp3 */; };
+		ED498F4926FACE3B0090442A /* Cm.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = ED498F3C26FACE3B0090442A /* Cm.mp3 */; };
+		ED498F4A26FACE3B0090442A /* A#.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = ED498F3D26FACE3B0090442A /* A#.mp3 */; };
+		ED680E3A26F2931D00711259 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED680E3926F2931D00711259 /* AppDelegate.swift */; };
+		ED680E3C26F2931D00711259 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED680E3B26F2931D00711259 /* SceneDelegate.swift */; };
+		ED680E3E26F2931D00711259 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED680E3D26F2931D00711259 /* ViewController.swift */; };
+		ED680E4126F2931D00711259 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ED680E3F26F2931D00711259 /* Main.storyboard */; };
+		ED680E4426F2931D00711259 /* Piano.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = ED680E4226F2931D00711259 /* Piano.xcdatamodeld */; };
+		ED680E4626F2931F00711259 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ED680E4526F2931F00711259 /* Assets.xcassets */; };
+		ED680E4926F2931F00711259 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ED680E4726F2931F00711259 /* LaunchScreen.storyboard */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		ED498F3126FACE3A0090442A /* A.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = A.mp3; sourceTree = "<group>"; };
+		ED498F3226FACE3A0090442A /* B.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = B.mp3; sourceTree = "<group>"; };
+		ED498F3326FACE3A0090442A /* C.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = C.mp3; sourceTree = "<group>"; };
+		ED498F3426FACE3A0090442A /* C#.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "C#.mp3"; sourceTree = "<group>"; };
+		ED498F3526FACE3A0090442A /* G.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = G.mp3; sourceTree = "<group>"; };
+		ED498F3626FACE3B0090442A /* F.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = F.mp3; sourceTree = "<group>"; };
+		ED498F3726FACE3B0090442A /* D.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = D.mp3; sourceTree = "<group>"; };
+		ED498F3826FACE3B0090442A /* E.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = E.mp3; sourceTree = "<group>"; };
+		ED498F3926FACE3B0090442A /* D#.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "D#.mp3"; sourceTree = "<group>"; };
+		ED498F3A26FACE3B0090442A /* F#.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "F#.mp3"; sourceTree = "<group>"; };
+		ED498F3B26FACE3B0090442A /* G#.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "G#.mp3"; sourceTree = "<group>"; };
+		ED498F3C26FACE3B0090442A /* Cm.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = Cm.mp3; sourceTree = "<group>"; };
+		ED498F3D26FACE3B0090442A /* A#.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "A#.mp3"; sourceTree = "<group>"; };
+		ED680E3626F2931D00711259 /* Piano.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Piano.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		ED680E3926F2931D00711259 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		ED680E3B26F2931D00711259 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		ED680E3D26F2931D00711259 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		ED680E4026F2931D00711259 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		ED680E4326F2931D00711259 /* Piano.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Piano.xcdatamodel; sourceTree = "<group>"; };
+		ED680E4526F2931F00711259 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		ED680E4826F2931F00711259 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		ED680E4A26F2931F00711259 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		ED680E3326F2931D00711259 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		ED498F3026FACE3A0090442A /* sounds */ = {
+			isa = PBXGroup;
+			children = (
+				ED498F3126FACE3A0090442A /* A.mp3 */,
+				ED498F3226FACE3A0090442A /* B.mp3 */,
+				ED498F3326FACE3A0090442A /* C.mp3 */,
+				ED498F3426FACE3A0090442A /* C#.mp3 */,
+				ED498F3526FACE3A0090442A /* G.mp3 */,
+				ED498F3626FACE3B0090442A /* F.mp3 */,
+				ED498F3726FACE3B0090442A /* D.mp3 */,
+				ED498F3826FACE3B0090442A /* E.mp3 */,
+				ED498F3926FACE3B0090442A /* D#.mp3 */,
+				ED498F3A26FACE3B0090442A /* F#.mp3 */,
+				ED498F3B26FACE3B0090442A /* G#.mp3 */,
+				ED498F3C26FACE3B0090442A /* Cm.mp3 */,
+				ED498F3D26FACE3B0090442A /* A#.mp3 */,
+			);
+			path = sounds;
+			sourceTree = "<group>";
+		};
+		ED680E2D26F2931D00711259 = {
+			isa = PBXGroup;
+			children = (
+				ED680E3826F2931D00711259 /* Piano */,
+				ED680E3726F2931D00711259 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		ED680E3726F2931D00711259 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				ED680E3626F2931D00711259 /* Piano.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		ED680E3826F2931D00711259 /* Piano */ = {
+			isa = PBXGroup;
+			children = (
+				ED680E3926F2931D00711259 /* AppDelegate.swift */,
+				ED680E3B26F2931D00711259 /* SceneDelegate.swift */,
+				ED680E3D26F2931D00711259 /* ViewController.swift */,
+				ED680E3F26F2931D00711259 /* Main.storyboard */,
+				ED680E4526F2931F00711259 /* Assets.xcassets */,
+				ED680E4726F2931F00711259 /* LaunchScreen.storyboard */,
+				ED680E4A26F2931F00711259 /* Info.plist */,
+				ED680E4226F2931D00711259 /* Piano.xcdatamodeld */,
+				ED498F3026FACE3A0090442A /* sounds */,
+			);
+			path = Piano;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		ED680E3526F2931D00711259 /* Piano */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ED680E4D26F2931F00711259 /* Build configuration list for PBXNativeTarget "Piano" */;
+			buildPhases = (
+				ED680E3226F2931D00711259 /* Sources */,
+				ED680E3326F2931D00711259 /* Frameworks */,
+				ED680E3426F2931D00711259 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Piano;
+			productName = Piano;
+			productReference = ED680E3626F2931D00711259 /* Piano.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		ED680E2E26F2931D00711259 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1250;
+				LastUpgradeCheck = 1250;
+				TargetAttributes = {
+					ED680E3526F2931D00711259 = {
+						CreatedOnToolsVersion = 12.5.1;
+					};
+				};
+			};
+			buildConfigurationList = ED680E3126F2931D00711259 /* Build configuration list for PBXProject "Piano" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = ED680E2D26F2931D00711259;
+			productRefGroup = ED680E3726F2931D00711259 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				ED680E3526F2931D00711259 /* Piano */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		ED680E3426F2931D00711259 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ED498F4726FACE3B0090442A /* F#.mp3 in Resources */,
+				ED498F4526FACE3B0090442A /* E.mp3 in Resources */,
+				ED498F4326FACE3B0090442A /* F.mp3 in Resources */,
+				ED498F4426FACE3B0090442A /* D.mp3 in Resources */,
+				ED498F4026FACE3B0090442A /* C.mp3 in Resources */,
+				ED498F3F26FACE3B0090442A /* B.mp3 in Resources */,
+				ED498F4226FACE3B0090442A /* G.mp3 in Resources */,
+				ED498F3E26FACE3B0090442A /* A.mp3 in Resources */,
+				ED498F4A26FACE3B0090442A /* A#.mp3 in Resources */,
+				ED498F4826FACE3B0090442A /* G#.mp3 in Resources */,
+				ED498F4626FACE3B0090442A /* D#.mp3 in Resources */,
+				ED498F4926FACE3B0090442A /* Cm.mp3 in Resources */,
+				ED680E4926F2931F00711259 /* LaunchScreen.storyboard in Resources */,
+				ED680E4626F2931F00711259 /* Assets.xcassets in Resources */,
+				ED498F4126FACE3B0090442A /* C#.mp3 in Resources */,
+				ED680E4126F2931D00711259 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		ED680E3226F2931D00711259 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ED680E3E26F2931D00711259 /* ViewController.swift in Sources */,
+				ED680E4426F2931D00711259 /* Piano.xcdatamodeld in Sources */,
+				ED680E3A26F2931D00711259 /* AppDelegate.swift in Sources */,
+				ED680E3C26F2931D00711259 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		ED680E3F26F2931D00711259 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				ED680E4026F2931D00711259 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		ED680E4726F2931F00711259 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				ED680E4826F2931F00711259 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		ED680E4B26F2931F00711259 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		ED680E4C26F2931F00711259 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		ED680E4E26F2931F00711259 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 8W8Q9GKJLD;
+				INFOPLIST_FILE = Piano/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.matheuslima.Piano;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		ED680E4F26F2931F00711259 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 8W8Q9GKJLD;
+				INFOPLIST_FILE = Piano/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.matheuslima.Piano;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		ED680E3126F2931D00711259 /* Build configuration list for PBXProject "Piano" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ED680E4B26F2931F00711259 /* Debug */,
+				ED680E4C26F2931F00711259 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		ED680E4D26F2931F00711259 /* Build configuration list for PBXNativeTarget "Piano" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ED680E4E26F2931F00711259 /* Debug */,
+				ED680E4F26F2931F00711259 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		ED680E4226F2931D00711259 /* Piano.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				ED680E4326F2931D00711259 /* Piano.xcdatamodel */,
+			);
+			currentVersion = ED680E4326F2931D00711259 /* Piano.xcdatamodel */;
+			path = Piano.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = ED680E2E26F2931D00711259 /* Project object */;
+}
